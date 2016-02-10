@@ -1,0 +1,45 @@
+Determining if files pthread.h exist failed with the following output:
+Change Dir: E:/Projects/MyTest/MyCustomSharedPointer/googletest/googletest/buildoutput/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1237541706.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 10/2/2016 11:25:33 PM.
+Project "E:\Projects\MyTest\MyCustomSharedPointer\googletest\googletest\buildoutput\CMakeFiles\CMakeTmp\cmTryCompileExec1237541706.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1237541706.dir\Debug\".
+  Creating directory "E:\Projects\MyTest\MyCustomSharedPointer\googletest\googletest\buildoutput\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1237541706.dir\Debug\cmTryCom.2E093293.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1237541706.dir\Debug\cmTryCom.2E093293.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1237541706.dir\Debug\\" /Fd"cmTryCompileExec1237541706.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue E:\Projects\MyTest\MyCustomSharedPointer\googletest\googletest\buildoutput\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  CheckIncludeFiles.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1237541706.dir\Debug\\" /Fd"cmTryCompileExec1237541706.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue E:\Projects\MyTest\MyCustomSharedPointer\googletest\googletest\buildoutput\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+E:\Projects\MyTest\MyCustomSharedPointer\googletest\googletest\buildoutput\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\Projects\MyTest\MyCustomSharedPointer\googletest\googletest\buildoutput\CMakeFiles\CMakeTmp\cmTryCompileExec1237541706.vcxproj]
+Done Building Project "E:\Projects\MyTest\MyCustomSharedPointer\googletest\googletest\buildoutput\CMakeFiles\CMakeTmp\cmTryCompileExec1237541706.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"E:\Projects\MyTest\MyCustomSharedPointer\googletest\googletest\buildoutput\CMakeFiles\CMakeTmp\cmTryCompileExec1237541706.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  E:\Projects\MyTest\MyCustomSharedPointer\googletest\googletest\buildoutput\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\Projects\MyTest\MyCustomSharedPointer\googletest\googletest\buildoutput\CMakeFiles\CMakeTmp\cmTryCompileExec1237541706.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.86
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(void){return 0;}
+
